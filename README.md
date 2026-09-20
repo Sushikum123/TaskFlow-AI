@@ -1,86 +1,46 @@
 # TaskFlow AI
 
-### Smart planning for students and professionals
+> Tell me what you need to do. I'll figure out the plan.
 
-TaskFlow AI is a simple intelligent task-planning application that helps users organize their daily workload.
+TaskFlow AI is an intelligent task-planning assistant that turns natural-language descriptions of your day into a realistic study/work plan.
 
-## Problem
+## ✨ Features
 
-People often have multiple tasks with different deadlines and priorities. A normal to-do list only stores tasks. It does not help the user decide what should be done first.
+- 📝 Natural-language task input
+- 🧠 Automatic task detection
+- ⏱️ Available-time analysis
+- 📊 Workload estimation
+- 🚦 Reality Check
+- 📅 Smart task prioritization
+- 📱 Responsive design
 
-## Solution
+## 💡 How It Works
 
-TaskFlow AI analyzes:
+1. **You Talk** — Describe your tasks and available time.
+2. **Agent Thinks** — TaskFlow identifies tasks and urgency.
+3. **Agent Plans** — It creates a realistic schedule.
+4. **Agent Adapts** — Future versions will support automatic replanning.
 
-- Task priority
-- Deadline
-- Estimated completion time
-- Completion status
+## 🛠️ Technologies
 
-The system then creates an optimized task order.
+- HTML
+- CSS
+- JavaScript
 
-## Main Features
+## 🚀 Current Version
 
-- Add tasks
-- Set deadlines
-- Set priority
-- Set estimated time
-- Automatically prioritize tasks
-- Create a smart daily plan
-- Mark tasks as completed
-- Delete tasks
-- Automatically save tasks using LocalStorage
-- Responsive design
+**TaskFlow AI v2 — Natural Language Planning MVP**
 
-## How the Agent Works
+This version uses rule-based logic to understand task descriptions and generate a basic plan.
 
-The agent calculates a priority score.
+## 🔮 Future Improvements
 
-Example:
-
-High Priority = +50 points
-
-Deadline within 1 day = +40 points
-
-Deadline within 3 days = +25 points
-
-Short task = +5 points
-
-Tasks with higher scores are placed earlier in the plan.
-
-## Technology
-
-HTML
-
-CSS
-
-JavaScript
-
-LocalStorage
-
-## Future Improvements
-
-The project can later be connected to an AI model.
-
-Future versions could include:
-
-- Natural language task input
-- AI-generated schedules
-- Automatic task breakdown
+- Real AI/LLM integration
+- Automatic replanning
+- Personalized planning
 - Calendar integration
-- Voice input
-- Email reminders
-- AI productivity recommendations
+- AI-powered task understanding
 
-## How to Run
+## 👩‍💻 Author
 
-1. Download or clone the project.
-2. Open the folder in VS Code.
-3. Open `index.html`.
-4. Use Live Server.
-5. Add your tasks.
-6. Click "Create Smart Plan".
-
-## Project Goal
-
-The goal is to demonstrate how an autonomous agent can observe user information, make decisions and generate an action plan.
+Sushma Kumari
