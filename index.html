@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TaskFlow <span>AI</span></div>
+    <p>Tell me what you need to do. I'll figure out the plan.</p>
+</header>
+
+<main>
+
+    <section class="hero card">
+
+        <span class="badge">● AI PLANNING AGENT</span>
+
+        <h1>Don't manage your tasks.<br>
+            <span>Tell me about your day.</span>
+        </h1>
+
+        <p class="subtitle">
+            Describe your tasks, deadlines and available time naturally.
+            TaskFlow will turn your situation into a realistic plan.
+        </p>
+
+        <textarea
+            id="userInput"
+            placeholder="Example: I have a C++ assignment due tomorrow, a physics exam on Friday and a presentation on Monday. I have about 2 hours tonight..."
+        ></textarea>
+
+        <button onclick="createPlan()" class="main-btn">
+            ✨ Plan My Day
+        </button>
+
+    </section>
+
+
+    <section id="realitySection" class="card hidden">
+
+        <h2>⚡ Reality Check</h2>
+
+        <div id="realityMessage"></div>
+
+    </section>
+
+
+    <section id="planSection" class="card hidden">
+
+        <div class="section-heading">
+            <div>
+                <span class="badge">YOUR PLAN</span>
+                <h2>Smart Schedule</h2>
+            </div>
+
+            <button onclick="resetPlanner()" class="reset-btn">
+                New Plan
+            </button>
+        </div>
+
+        <div id="planList"></div>
+
+    </section>
+
+
+    <section class="card how-card">
+
+        <h2>How TaskFlow is different</h2>
+
+        <div class="steps">
+
+            <div>
+                <b>01</b>
+                <h3>You Talk</h3>
+                <p>Describe your day normally.</p>
+            </div>
+
+            <div>
+                <b>02</b>
+                <h3>Agent Thinks</h3>
+                <p>It identifies urgency and available time.</p>
+            </div>
+
+            <div>
+                <b>03</b>
+                <h3>Agent Plans</h3>
+                <p>It creates a realistic schedule.</p>
+            </div>
+
+            <div>
+                <b>04</b>
+                <h3>Agent Adapts</h3>
+                <p>Change the situation and create a new plan.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    TaskFlow AI • Plan realistically, not perfectly.
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
